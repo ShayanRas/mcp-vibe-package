@@ -96,7 +96,7 @@ When launching a server, you'll be asked:
 Quick launch with HTTP mode:
 ```bash
 # Windows
-MCP.bat --http
+./MCP.bat --http
 
 # Mac/Linux/WSL
 ./MCP.sh --http
@@ -143,7 +143,7 @@ chmod +x START_HERE.sh
 **Debug mode for when things go wrong:**
 ```bash
 # Windows
-START_HERE.bat --debug
+./START_HERE.bat --debug
 
 # Mac/Linux
 ./START_HERE.sh --debug
