@@ -152,12 +152,6 @@ chmod +x START_HERE.sh
 **Server won't connect:**
 Check the `.env` file in mcp-hub and make sure your API keys are set.
 
-## What's an MCP Anyway?
-
-MCP (Model Context Protocol) is how AI apps like Claude connect to external tools and data. Think of it as giving your AI superpowers - database access, file manipulation, web scraping, whatever you need.
-
-Instead of every AI app building custom integrations, MCP provides a standard way to expose capabilities that any MCP-compatible client can use.
-
 ## Next Steps
 
 1. Run the START_HERE script
