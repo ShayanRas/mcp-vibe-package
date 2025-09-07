@@ -1,13 +1,18 @@
-# mcp-vibe-package
-Vibe code any MCP server you like with this packaged repo and your favorite AI Coding Agent (Claude Code, Cursor etc.)
-# Shayan Rastgou's MCP Seed Repo
-
----
+# SR's MCP Seed Repo
 This repo is desigend for vibe coders and semi-technical users looking to build their own MPC servers and custom tools with AI Agents.
 
 With this package, wich includes the required knowledge base and infrastructure, you can use AI Coding agents such as Claude Code, Gemini CLI and OpenAI's Codex, as well as AI IDEs such as Cursor or Windsurf, to create and run ANY MCP server and toolkit you'd like to build.
 
 I've taken care of all the complexities of MCP development, including installing, debugging, running and adding them to Claude Desktop automatically. All you have to do is clone the repo, run the START_HERE script and follow the prompts. It also include a prepared CLAUDE.md (or IDE memory file) to tune your AI coding agent perfectly to build and extend MCPs.
+
+## Package Includes:
+- MCP Hub (mcp-hub)
+- MCP Knowledge Base
+- Example Servers
+- My highly saught after Text to SQL Server
+- MCP Inspector
+- Prompt Pack for Vibe Software Engineering gathered from my experience building a six figure business with AI Agents
+- Preapred CLAUDE.md (or IDE memory file)
 
 **Best Practices to make MCP development easier:**
 1. Always use Github Desktop to track and manage changes to your code. Install Github from here: [Click here](https://desktop.github.com/download/)
@@ -78,21 +83,29 @@ The hub comes with three example servers ready to go:
 
 All MCP servers in the hub now support running over HTTP, not just local stdio. This means:
 
-**Run servers on remote machines** - Access your MCP servers from anywhere
-**Share servers with teammates** - One server, multiple users
-**Use with Claude Code** - Connect Claude Code to your remote servers
-**SSE or StreamableHTTP** - Choose between Server-Sent Events or standard HTTP
+- **Run servers on remote machines** - Access your MCP servers from anywhere
+- **Share servers with teammates** - One server, multiple users  
+- **Use with Claude Code** - Connect Claude Code to your remote servers
+- **SSE or StreamableHTTP** - Choose between Server-Sent Events or standard HTTP
 
 When launching a server, you'll be asked:
 1. **Local or Remote?** - Choose remote for HTTP mode
 2. **Pick a port** - Hub finds available ports automatically
 3. **Enable authentication?** - Secure with API keys if needed
 
-To monitor running HTTP servers:
+Quick launch with HTTP mode:
 ```bash
-# From MCP Hub menu, select "Monitor Running Servers"
-# Choose simple view or interactive dashboard
+# Windows
+MCP.bat --http
+
+# Mac/Linux/WSL
+./MCP.sh --http
 ```
+
+To monitor running HTTP servers:
+- From MCP Hub menu, select "🖥️ Monitor Running Servers"  
+- Choose simple view or interactive dashboard
+- Press 's' to stop a server, 'R' to restart
 
 ## Building Your Own MCP
 
@@ -139,8 +152,17 @@ START_HERE.bat --debug
 **Server won't connect:**
 Check the `.env` file in mcp-hub and make sure your API keys are set.
 
+## What's an MCP Anyway?
+
+MCP (Model Context Protocol) is how AI apps like Claude connect to external tools and data. Think of it as giving your AI superpowers - database access, file manipulation, web scraping, whatever you need.
+
+Instead of every AI app building custom integrations, MCP provides a standard way to expose capabilities that any MCP-compatible client can use.
+
+## Next Steps
+
+1. Run the START_HERE script
+2. Play with the example servers
+3. Build something cool
+4. Share it with the community
 
 That's it. Stop reading and start building.
-
-
-# HOW TO ACCESS THE REPO #
