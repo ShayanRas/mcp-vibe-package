@@ -75,39 +75,11 @@ The hub comes with three example servers ready to go:
 - **Debug mode** - When things break (they will), run with `--debug` to see what's happening
 - **Inspector built-in** - Test your MCP tools without leaving the terminal
 - **Auto-config for Claude** - Generates and installs configs automatically
-- **HTTP/SSE Support** - Run MCP servers remotely over HTTP or Server-Sent Events
-- **Live Monitoring** - Real-time dashboard to monitor running HTTP servers
-- **API Authentication** - Secure your HTTP servers with API key authentication
 
-### Remote HTTP/SSE Mode
 
-All MCP servers in the hub now support running over HTTP, not just local stdio. This means:
 
-- **Run servers on remote machines** - Access your MCP servers from anywhere
-- **Share servers with teammates** - One server, multiple users  
-- **Use with Claude Code** - Connect Claude Code to your remote servers
-- **SSE or StreamableHTTP** - Choose between Server-Sent Events or standard HTTP
 
-When launching a server, you'll be asked:
-1. **Local or Remote?** - Choose remote for HTTP mode
-2. **Pick a port** - Hub finds available ports automatically
-3. **Enable authentication?** - Secure with API keys if needed
-
-Quick launch with HTTP mode:
-```bash
-# Windows
-./MCP.bat --http
-
-# Mac/Linux/WSL
-./MCP.sh --http
-```
-
-To monitor running HTTP servers:
-- From MCP Hub menu, select "🖥️ Monitor Running Servers"  
-- Choose simple view or interactive dashboard
-- Press 's' to stop a server, 'R' to restart
-
-## Building Your Own MCP
+# Building Your Own MCP
 
 ### With Claude Code (Recommended)
 
