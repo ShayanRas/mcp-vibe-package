@@ -5,6 +5,13 @@ With this package, wich includes the required knowledge base and infrastructure,
 
 I've taken care of all the complexities of MCP development, including installing, debugging, running and adding them to Claude Desktop automatically. All you have to do is clone the repo, run the START_HERE script and follow the prompts. It also include a prepared CLAUDE.md (or IDE memory file) to tune your AI coding agent perfectly to build and extend MCPs.
 
+#Demo Videos
+ **MCP Hub**
+ ![mcp_hub_demo](assets/high speed demo cleaned - Made with Clipchamp.mp4)
+
+ **Adding a New MCP with Claude Code**
+ ![mcp_hub_demo](assets/Claude MCP addition Cleaned - Made with Clipchamp.mp4)
+
 ## Package Includes:
 - MCP Hub (mcp-hub)
 - MCP Knowledge Base
@@ -20,7 +27,24 @@ I've taken care of all the complexities of MCP development, including installing
 3. I've already trained the AI to walk you through this when needed, but be prepared to run important tests like "npm run build, npx tsc" etc. yourself
 
 
-## Getting Started
+# Creating any MCP You like with AI Agents (Claude Code, Cursor etc.)
+
+## MCP Building Process:
+1 - To start type "let's start building" and wait for Claude to review the MCP knowledge base and become an expert in MCP server and tool development. 
+2 - Simply explain what your vision is in your own words
+3 - Add "ultrathink, Let's Discuss Consciely"
+4 - Answer the Agent's clarifying questions and go into PLAN MODE.
+5 - Review the plan and make any changes to plan as needed
+6 - Accept the plan and switch to auto-edit mode.
+7 - Watch your AI Agent build and integrate the MCP server and tools into the MCP hub.
+8 - Launch ./START_HERE.sh (mac) or ./START_HERE.bat (windows powershell) to start the MCP hub.
+9 - Select your MCP server to install and add to Claude Desktop
+10 - Close and restart Claude Desktop and see your MCP working
+
+# Running and Managing MCP Servers + Claude Desktop Config + Debug CLI (MCP HUB)
+
+![mcp_hub](assets/MCP Hub.png)
+
 
 **Windows:**
 Open your terminal in the project root and run:
@@ -59,8 +83,10 @@ I've prepared the repo in two main sections:
 
 2) **The Knowledge Base** - Everything your AI needs to know about building MCPs. Run your AI with this KB and the prompt pack provided to build and extend MCPs as you like.
 
-## The MCP Hub
+![overview](assets/overview.png
 
+
+## The MCP Hub
 ### What is it?
 
 It's a simple menu system that handles all the annoying parts of MCP development. Install dependencies, test connections, generate Claude Desktop configs - all from one place. No more fumbling with config files or wondering why your server won't connect.
@@ -76,11 +102,7 @@ The hub comes with three example servers ready to go:
 - **Inspector built-in** - Test your MCP tools without leaving the terminal
 - **Auto-config for Claude** - Generates and installs configs automatically
 
-
-
-
 # Building Your Own MCP
-
 ### With Claude Code (Recommended)
 
 Claude Code will produce the best result, most consistently. I've prepared an in-depth CLAUDE.md that allows the agent to act as needed for easy but reliable MCP development.
