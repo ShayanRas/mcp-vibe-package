@@ -5,12 +5,18 @@ With this package, wich includes the required knowledge base and infrastructure,
 
 I've taken care of all the complexities of MCP development, including installing, debugging, running and adding them to Claude Desktop automatically. All you have to do is clone the repo, run the START_HERE script and follow the prompts. It also include a prepared CLAUDE.md (or IDE memory file) to tune your AI coding agent perfectly to build and extend MCPs.
 
-#Demo Videos
- **MCP Hub**
- ![mcp_hub_demo](assets/high speed demo cleaned - Made with Clipchamp.mp4)
+## Demo Videos
+
+ **Fixing / setting up enviroments and MCP Hub**
+ 
+https://github.com/user-attachments/assets/8e824550-9563-4d50-ae26-bc4cfba0642c
+
 
  **Adding a New MCP with Claude Code**
- ![mcp_hub_demo](assets/Claude MCP addition Cleaned - Made with Clipchamp.mp4)
+ 
+https://github.com/user-attachments/assets/a8ace6d7-d78d-4a4f-abe9-52e03849367b
+
+
 
 ## Package Includes:
 - MCP Hub (mcp-hub)
@@ -43,8 +49,7 @@ I've taken care of all the complexities of MCP development, including installing
 
 # Running and Managing MCP Servers + Claude Desktop Config + Debug CLI (MCP HUB)
 
-![mcp_hub](assets/MCP Hub.png)
-
+<img width="247" height="198" alt="MCP Hub" src="https://github.com/user-attachments/assets/5d7637ea-f41e-4165-97d9-f64cd7f7b190" />
 
 **Windows:**
 Open your terminal in the project root and run:
@@ -83,7 +88,7 @@ I've prepared the repo in two main sections:
 
 2) **The Knowledge Base** - Everything your AI needs to know about building MCPs. Run your AI with this KB and the prompt pack provided to build and extend MCPs as you like.
 
-![overview](assets/overview.png
+<img width="1247" height="742" alt="overview" src="https://github.com/user-attachments/assets/fa2fdfba-c1fc-48fe-a6dc-9b3118b016ec" />
 
 
 ## The MCP Hub
@@ -145,12 +150,3 @@ chmod +x START_HERE.sh
 
 **Server won't connect:**
 Check the `.env` file in mcp-hub and make sure your API keys are set.
-
-## Next Steps
-
-1. Run the START_HERE script
-2. Play with the example servers
-3. Build something cool
-4. Share it with the community
-
-That's it. Stop reading and start building.
